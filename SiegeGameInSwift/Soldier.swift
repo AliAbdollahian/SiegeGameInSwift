@@ -91,4 +91,29 @@ public class Soldier {
             print("Soldier \(name) does not survive the attack. All health points depleted.")
         }
     }
+    
+    //Getters
+    var getName : String{
+        return name
+    }
+    var getDepartment : String{
+        return department
+    }
+    var getAge : Int{
+        return age
+    }
+    var getArmor : Int{
+        return armor
+    }
+    var getHealth : Int{
+        return health
+    }
+    var getPrimaryGun : Int{
+        return primaryGun
+    }
+    var getSecondaryGun : Int{
+        return secondaryGun
+    }
+    
+    
 }
