@@ -10,3 +10,4 @@ import Foundation
 var NewObj = Soldier(name: "Ace", department: "Col", age: 22, armor: 100, health: 70, primaryGun: 20, secondaryGun: 10)
 NewObj.printDescription()
 
+

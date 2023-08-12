@@ -92,7 +92,7 @@ public class Soldier {
         }
     }
     
-    //Implementing read and write properties 
+    //Implementing read and write properties
     var Name : String{
         get{return name }
         set{name = newValue}
@@ -118,30 +118,7 @@ public class Soldier {
         set{primaryGun = newValue}
     }
     var SecondaryGun : Int{
-        get(return secondaryGun)
+        get{return secondaryGun}
         set{secondaryGun = newValue}
     }
-    
-//    //Getters
-//    var getName : String{
-//        return name
-//    }
-//    var getDepartment : String{
-//        return department
-//    }
-//    var getAge : Int{
-//        return age
-//    }
-//    var getArmor : Int{
-//        return armor
-//    }
-//    var getHealth : Int{
-//        return health
-//    }
-//    var getPrimaryGun : Int{
-//        return primaryGun
-//    }
-//    var getSecondaryGun : Int{
-//        return secondaryGun
-//    }
 }
