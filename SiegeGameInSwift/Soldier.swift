@@ -6,16 +6,16 @@
 //
 
 public class Soldier {
-    var name : String
-    var department : String
-    var age : Int
-    var armor : Int
-    var health : Int
-    var primaryGun : Int
-    var secondaryGun : Int
-    static let PRIMARY_GUN_RELOAD_TIME = 10
-    static let MAX_PRIMARY_AMMO = 51
-    static let MIN_HEALTH = 0
+    fileprivate var name : String
+    fileprivate var department : String
+    fileprivate var age : Int
+    fileprivate var armor : Int
+    fileprivate var health : Int
+    fileprivate var primaryGun : Int
+    fileprivate var secondaryGun : Int
+    public static let PRIMARY_GUN_RELOAD_TIME = 10
+    public static let MAX_PRIMARY_AMMO = 51
+    public static let MIN_HEALTH = 0
     
     init() {   /* Is there any shorter way to write this like "this" in java ? */
         self.name = "recruit"
@@ -92,28 +92,56 @@ public class Soldier {
         }
     }
     
-    //Getters
-    var getName : String{
-        return name
+    //Implementing read and write properties 
+    var Name : String{
+        get{return name }
+        set{name = newValue}
     }
-    var getDepartment : String{
-        return department
+    var Department : String{
+        get{return department}
+        set{department = newValue}
     }
-    var getAge : Int{
-        return age
+    var Age : Int{
+        get{return age }
+        set{age = newValue}
     }
-    var getArmor : Int{
-        return armor
+    var Armor : Int{
+        get{return armor }
+        set{armor = newValue}
     }
-    var getHealth : Int{
-        return health
+    var Health : Int{
+        get{return health }
+        set{health = newValue}
     }
-    var getPrimaryGun : Int{
-        return primaryGun
+    var PrimaryGun : Int{
+        get{return primaryGun }
+        set{primaryGun = newValue}
     }
-    var getSecondaryGun : Int{
-        return secondaryGun
+    var SecondaryGun : Int{
+        get(return secondaryGun)
+        set{secondaryGun = newValue}
     }
     
-    
+//    //Getters
+//    var getName : String{
+//        return name
+//    }
+//    var getDepartment : String{
+//        return department
+//    }
+//    var getAge : Int{
+//        return age
+//    }
+//    var getArmor : Int{
+//        return armor
+//    }
+//    var getHealth : Int{
+//        return health
+//    }
+//    var getPrimaryGun : Int{
+//        return primaryGun
+//    }
+//    var getSecondaryGun : Int{
+//        return secondaryGun
+//    }
 }
