@@ -2,8 +2,10 @@
 //  Soldier.swift
 //  SiegeGameInSwift
 //
-//  Created by Ali on 2023-08-12.
-//
+//  Created by Ali Abdollahian on 2023-08-05.
+//  Inspired by SiegeGame from SYSC2004 course
+//  Instructor: Dr. Rami Sabouni
+//  Version number: 1.0.0
 
 public class Soldier {
     fileprivate var name : String
@@ -37,8 +39,18 @@ public class Soldier {
         self.secondaryGun = secondaryGun
     }
     
-    
+    /*A third method, attacked(int damageRecieved), is created in Soldier but not implemented.
+    This method is public as this is the method that will be called by our Client Class.
+    This method will determine if the Soldier is attacked on armor or attacked on health.
+    Since Attackers have 50% chance to call attackedOnArmor and
+    50% chance to call attackedOnHP and
+    Defenders have 70% chance to call attackedOnArmor and
+    30% chance to call attackedOnHP,
+    the public method attacked is implemented in Attacker and
+    Defender separately*/
     public func attacked(damagedRecieved : Int) -> Void {}
+    
+    
     public func attack()
         -> Int {return 0}
     public func takeCover()

@@ -8,7 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		412434F42A87E4B600B11DFF /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412434F32A87E4B600B11DFF /* Soldier.swift */; };
+		412434F62A88182C00B11DFF /* Attacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412434F52A88182C00B11DFF /* Attacker.swift */; };
+		412434F82A88379D00B11DFF /* Defender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412434F72A88379D00B11DFF /* Defender.swift */; };
 		413E5BE42A7EC8EB00D3FAE5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413E5BE32A7EC8EB00D3FAE5 /* main.swift */; };
+		41F16F152A885D0A00D1DFF2 /* Ace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F16F142A885D0A00D1DFF2 /* Ace.swift */; };
+		41F16F172A885FEC00D1DFF2 /* Thermite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F16F162A885FEC00D1DFF2 /* Thermite.swift */; };
+		41F16F192A885FF400D1DFF2 /* Sledge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F16F182A885FF400D1DFF2 /* Sledge.swift */; };
+		41F16F1B2A885FFA00D1DFF2 /* Ash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F16F1A2A885FFA00D1DFF2 /* Ash.swift */; };
+		41F16F1D2A88600300D1DFF2 /* Kapkan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F16F1C2A88600300D1DFF2 /* Kapkan.swift */; };
+		41F16F1F2A88600A00D1DFF2 /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F16F1E2A88600A00D1DFF2 /* Doc.swift */; };
+		41F16F212A88601500D1DFF2 /* Caveira.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F16F202A88601500D1DFF2 /* Caveira.swift */; };
+		41F16F232A88601E00D1DFF2 /* Smoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F16F222A88601E00D1DFF2 /* Smoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +35,18 @@
 
 /* Begin PBXFileReference section */
 		412434F32A87E4B600B11DFF /* Soldier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		412434F52A88182C00B11DFF /* Attacker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attacker.swift; sourceTree = "<group>"; };
+		412434F72A88379D00B11DFF /* Defender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defender.swift; sourceTree = "<group>"; };
 		413E5BE02A7EC8EB00D3FAE5 /* SiegeGameInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SiegeGameInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		413E5BE32A7EC8EB00D3FAE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		41F16F142A885D0A00D1DFF2 /* Ace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ace.swift; sourceTree = "<group>"; };
+		41F16F162A885FEC00D1DFF2 /* Thermite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thermite.swift; sourceTree = "<group>"; };
+		41F16F182A885FF400D1DFF2 /* Sledge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sledge.swift; sourceTree = "<group>"; };
+		41F16F1A2A885FFA00D1DFF2 /* Ash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ash.swift; sourceTree = "<group>"; };
+		41F16F1C2A88600300D1DFF2 /* Kapkan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kapkan.swift; sourceTree = "<group>"; };
+		41F16F1E2A88600A00D1DFF2 /* Doc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doc.swift; sourceTree = "<group>"; };
+		41F16F202A88601500D1DFF2 /* Caveira.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caveira.swift; sourceTree = "<group>"; };
+		41F16F222A88601E00D1DFF2 /* Smoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +81,16 @@
 			children = (
 				413E5BE32A7EC8EB00D3FAE5 /* main.swift */,
 				412434F32A87E4B600B11DFF /* Soldier.swift */,
+				412434F52A88182C00B11DFF /* Attacker.swift */,
+				412434F72A88379D00B11DFF /* Defender.swift */,
+				41F16F142A885D0A00D1DFF2 /* Ace.swift */,
+				41F16F162A885FEC00D1DFF2 /* Thermite.swift */,
+				41F16F182A885FF400D1DFF2 /* Sledge.swift */,
+				41F16F1A2A885FFA00D1DFF2 /* Ash.swift */,
+				41F16F1C2A88600300D1DFF2 /* Kapkan.swift */,
+				41F16F1E2A88600A00D1DFF2 /* Doc.swift */,
+				41F16F202A88601500D1DFF2 /* Caveira.swift */,
+				41F16F222A88601E00D1DFF2 /* Smoke.swift */,
 			);
 			path = SiegeGameInSwift;
 			sourceTree = "<group>";
@@ -123,7 +153,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F16F1B2A885FFA00D1DFF2 /* Ash.swift in Sources */,
+				41F16F232A88601E00D1DFF2 /* Smoke.swift in Sources */,
+				41F16F192A885FF400D1DFF2 /* Sledge.swift in Sources */,
+				412434F62A88182C00B11DFF /* Attacker.swift in Sources */,
 				412434F42A87E4B600B11DFF /* Soldier.swift in Sources */,
+				412434F82A88379D00B11DFF /* Defender.swift in Sources */,
+				41F16F172A885FEC00D1DFF2 /* Thermite.swift in Sources */,
+				41F16F152A885D0A00D1DFF2 /* Ace.swift in Sources */,
+				41F16F212A88601500D1DFF2 /* Caveira.swift in Sources */,
+				41F16F1D2A88600300D1DFF2 /* Kapkan.swift in Sources */,
+				41F16F1F2A88600A00D1DFF2 /* Doc.swift in Sources */,
 				413E5BE42A7EC8EB00D3FAE5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
